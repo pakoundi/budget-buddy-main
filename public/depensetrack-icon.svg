@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="g" x1="20" y1="16" x2="108" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect x="12" y="12" width="104" height="104" rx="26" fill="url(#g)" filter="url(#s)"/>
+
+  <!-- Wallet icon (simple, bold) -->
+  <g fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M38 48h52a8 8 0 0 1 8 8v26a10 10 0 0 1-10 10H44a10 10 0 0 1-10-10V56a8 8 0 0 1 8-8z"/>
+    <path d="M34 58h58" opacity="0.9"/>
+    <path d="M80 70h16a6 6 0 0 1 0 12H80a6 6 0 0 1 0-12z"/>
+    <circle cx="86" cy="76" r="1.5" fill="#ffffff" stroke="none"/>
+  </g>
+
+  <!-- Small upward trend badge -->
+  <g>
+    <circle cx="94" cy="96" r="12" fill="#22c55e"/>
+    <path d="M89 98l4-5 3 3 6-7" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
